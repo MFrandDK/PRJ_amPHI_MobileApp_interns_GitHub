@@ -1,0 +1,14 @@
+.errorContainer {
+    min-height: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5vw;
+    align-items: center;
+    text-align: center;
+    margin: 3vw;
+    margin-top: 1rem;
+    background-color: black;
+    padding: 5vw;
+    border-radius: 15px;
+}

@@ -1,0 +1,12 @@
+<div class="vårdprocesserContainer">
+    <ul >
+      <li class="vårdprocessListItems" *ngFor="let vaardproces of vaardprocesser">
+        <div class="card">
+          <a routerLink="/detail/{{vaardproces.id}}">
+            {{vaardproces.procesName}}
+          </a>
+
+        </div>
+      </li>
+    </ul>
+  </div>

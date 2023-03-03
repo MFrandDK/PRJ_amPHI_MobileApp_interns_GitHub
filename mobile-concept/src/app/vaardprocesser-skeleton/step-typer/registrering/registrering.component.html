@@ -1,0 +1,38 @@
+<section class="ambulanceSection" *ngIf="vaardproces">
+    <section class="stepIndicatorAndSenderInformationContainer">
+        <p class="stepIndicator">1</p>
+        <h4 class="senderInformation">Ambulance</h4>
+    </section>
+    <h2 class="stepTitle">Title: Patientinformation </h2>
+    <form class="formContainer" action="">
+        <fieldset class="formFieldset">
+            <label class="labelOverskriftStyling" for="firstName"> Fornavn</label>
+            <input class="inputStyling" type="firstName" placeholder="Fornavn">
+        </fieldset>
+        
+        <fieldset class="formFieldset">
+            <label class="labelOverskriftStyling" for="middleName">Mellemnavn</label>
+            <input class="inputStyling" type="middleName" placeholder="Mellemnavn">
+        </fieldset>
+        
+        <fieldset class="formFieldset">
+            <label class="labelOverskriftStyling" for="lastName">Efternavn</label>
+            <input class="inputStyling" type="lastName" placeholder="Efternavn">
+        </fieldset>
+            
+        <fieldset class="formFieldset">
+            <label class="labelOverskriftStyling" for="socialSecurityNumber"> CPR Nummer</label>
+            <input class="inputStyling" type="socialSecurityNumber" placeholder="CPR Nummer">
+        </fieldset>
+       
+        <fieldset class="formFieldset">    
+            <label class="labelOverskriftStyling" for="gender">Køn</label>
+            <input class="inputStyling" type="gender" placeholder="Køn">
+        </fieldset>
+       
+        <fieldset class="formFieldset">
+            <label class="labelOverskriftStyling" for="caseNumber">Ärendenummer</label>
+            <input class="inputStyling" type="caseNumber" placeholder="Ärendenummer">
+        </fieldset>
+    </form>
+</section>

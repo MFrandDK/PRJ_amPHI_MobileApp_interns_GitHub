@@ -1,0 +1,13 @@
+<article class="ambulanceSection" *ngIf="vaardproces">
+    <header class="stepIndicatorAndSenderInformationContainer">
+            <p class="stepIndicator">2</p>
+            <h4 class="senderInformation">Ambulance</h4>
+    </header>
+    <h2 class="stepTitle">Title: Patientens akutte situation</h2>
+
+    <form class="center-vertical" action="">
+        <label class="labelOverskriftStyling" for="vaardproces-procesName">Patientens akutte situation:</label>
+        <input class="inputStyling" type="vaardprocess-procesName"
+        [(ngModel)]="vaardproces.procesName" placeholder="vaardproces-procesName">
+    </form>
+</article>
