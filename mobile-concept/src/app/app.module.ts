@@ -17,6 +17,7 @@ import { FritextComponent } from './vaardprocesser-skeleton/step-typer/fritext/f
 import { RegistreringComponent } from './vaardprocesser-skeleton/step-typer/registrering/registrering.component';
 import { ValComponent } from './vaardprocesser-skeleton/step-typer/val/val.component';
 import { PredefinedTextComponent } from './vaardprocesser-skeleton/step-typer/predefined-text/predefined-text.component';
+import { NotificationScreenComponent } from './notification-screen/notification-screen.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -29,6 +30,7 @@ import { PredefinedTextComponent } from './vaardprocesser-skeleton/step-typer/pr
     RegistreringComponent,
     ValComponent,
     PredefinedTextComponent,
+    NotificationScreenComponent,
     
   ],
   imports: [

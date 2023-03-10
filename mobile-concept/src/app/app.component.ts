@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { IVaardproces } from './ivaardproces';
 import { VaardprocesService } from './vaardproces.service';
 
