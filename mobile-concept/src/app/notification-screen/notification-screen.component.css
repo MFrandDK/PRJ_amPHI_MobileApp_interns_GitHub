@@ -28,9 +28,11 @@ main {
     margin-top: -100vw;
     margin-left: -5vw;
     padding-top: 65vw;
+    padding-bottom: 15vw;
 }
 
 h4 {
+    font-size: 4vw;
     font-weight: 500;
     color: black;
 }
@@ -38,7 +40,7 @@ h4 {
 h1 {
     margin-bottom: 10vw;
     font-weight: 500;
-    font-size: 4.5rem;
+    font-size: 16vw;
     color: black;
 }
 
@@ -51,6 +53,7 @@ h1 {
     width: auto;
     padding: 2vw;
     gap: 5vw;
+    font-size: 3.5vw;
 }
 
 .card>*:nth-child(1) {

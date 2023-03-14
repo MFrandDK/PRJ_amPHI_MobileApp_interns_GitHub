@@ -10,7 +10,7 @@ import { VAARDPROCESSER } from './vaardprocesser';
 
 export class VaardprocesService {
     private vaardprocesserUrl = "api/vaardprocesser"; //Url to web api
-
+    
     constructor(private http: HttpClient) { }
 
     getVaardprocesser(): Observable<IVaardproces[]> {
