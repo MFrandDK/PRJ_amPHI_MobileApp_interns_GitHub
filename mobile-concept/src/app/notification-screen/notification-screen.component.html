@@ -1,0 +1,15 @@
+<main routerLinkActive="ActiveNotificationScreenStyling">
+    <h4>{{today | date :'EEEE dd. MMMM'}}</h4>
+    <h1>{{today | date:"H:mm"}}</h1>
+
+    <ul>
+        <li class="vårdprocessListItems" *ngFor="let vaardproces of vaardprocesser">
+          <div class="card">
+            <img class="ambulanceIkon" src="../../assets/img/ambulance_icon.png" alt="Akut ambulance">
+            <a routerLink="/detail/{{vaardproces.id}}">
+              {{vaardproces.procesName}}
+            </a>
+          </div>
+        </li>
+      </ul>
+</main>

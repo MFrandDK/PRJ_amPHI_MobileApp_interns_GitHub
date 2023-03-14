@@ -22,6 +22,7 @@
       border-radius: 10px;
       padding: 3vw;
       margin-bottom: 1vw;
+      font-size: 4vw;
     }
     
     .ambulanceSection>* {
@@ -108,7 +109,7 @@
       display: flex;
       flex-direction: column;
       background-color: #A5CCDB;
-      width: 80vw;
+      width: 90%;
       border-radius: 5px;
     }
     
@@ -118,7 +119,7 @@
       padding: 10vw 4vw;
       padding-top: 0;
       border-radius: 5px;
-      width: 80vw;
+      width: 90%;
       min-height: 30vw;
       color: black;
       font-size: large;
@@ -126,8 +127,8 @@
     
     .buttonFormContainer {
       display: inline-flex;
-      width: auto;
-      gap: 10vw;
+      justify-content: center;
+      gap: 5vw;
     }
     
     .formButton {
@@ -179,6 +180,7 @@
     
     .lægeFormForInput {
       background-color: white;
+      width: 90%;
     }
     
     .lægeInputfelt {
@@ -188,15 +190,6 @@
       border-radius: 5px 5px 0 0;
       padding: 4vw;
       text-align: start;
-    }
-    
-    .lægeSubmitInputfeltButton {
-      background-color: #C4E66B;
-      color: #191C0D;
-      height: 8.5vw;
-      width: 30vw;
-      font-size: small;
-      margin: 0 0 2.5% 60%;
     }
     
     .patientDestinationInputfelt {

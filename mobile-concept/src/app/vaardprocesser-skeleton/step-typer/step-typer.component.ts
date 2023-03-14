@@ -4,7 +4,7 @@ import { Location } from '@angular/common';
 
 
 @Component({
-  selector: 'app-vaardproces-detail',
+  selector: 'app-step-typer',
   templateUrl: './step-typer.component.html',
   styleUrls: ['./step-typer.component.css']
 })

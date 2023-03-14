@@ -4,9 +4,14 @@
             <h4 class="senderInformation">Læge</h4>
         </section>
     <h2 class="stepTitle">Title: Lægens svar </h2>
-    <form action="">
+    <form class="formForInput lægeFormForInput" action="">
+        <textarea pInputTextarea  class="inputStyling lægeInputfelt" placeholder="Lægens professionelle indblik ift. behandling af patienten"></textarea>
+
+        <input class="formButton lægeSubmitInputfeltButton" type="submit" value="Bekræft svar">
+    </form>
+    <!-- <form action="">
         <label class="labelOverskriftStyling" for="vaardproces-procesName">Patientens akutte situation:</label>
         <input class="inputStyling" type="vaardproces-procesName"
         [(ngModel)]="vaardproces.procesName" placeholder="vaardproces-procesName">
-    </form>
+    </form> -->
 </section>
