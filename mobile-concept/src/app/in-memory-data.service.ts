@@ -18,8 +18,8 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 8, procesName: "procesEight" },
       { id: 9, procesName: "procesNine" },  
     ];
-
     return {vaardprocesser};
+    
   }
   genIdVaardprocesser(vaardprocesser: IVaardproces[]): number {
     return vaardprocesser.length > 0 ? Math.max(...vaardprocesser.map(vaardproces => vaardproces.id)) + 1 : 11;
