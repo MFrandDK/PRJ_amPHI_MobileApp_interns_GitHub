@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    padding: 4vw;
+    color: #067884;
+    font-weight: 500;
+}
+.id {
+    color: black;
+}
+main {
+    margin: 100px auto;
+    max-width: 80vw;
+    position: relative;
+}

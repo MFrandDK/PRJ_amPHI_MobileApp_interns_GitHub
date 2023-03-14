@@ -1,0 +1,64 @@
+
+.navbar{
+    background-color: #D9D9D9;
+   padding: 1rem 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.logoImg {
+    height: 2.2rem;
+    margin: 1rem;
+    display: block;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0 2rem;
+    padding: 0;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    gap: 1rem;
+
+
+}
+li {
+    height: 2.8rem;
+}
+
+li a {
+    display: block;
+    
+}
+
+
+nav {
+    border-radius: 0 0 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navIcons {
+    /* height: 2.8rem; */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px; */
+    border-radius: 5px;
+    /* padding-top: .1rem; */
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -10px 25px 0px inset, rgba(0, 0, 0, 0.073) 0px -12px 50px 0px inset, rgba(0, 0, 0, 0.05) 0px -45px 40px 0px inset, rgba(0, 0, 0, 0.034) 0px 2px 1px, rgba(0, 0, 0, 0.042) 0px 4px 2px, rgba(0, 0, 0, 0.041) 0px 8px 4px, rgba(0, 0, 0, 0.047) 0px 16px 8px, rgba(0, 0, 0, 0.051) 0px 10px 7px;
+}
+
+.activedNavButton {
+    background-color: #C4E66B;
+    border-radius: 5px;
+    /* height: 2.8rem; */
+}

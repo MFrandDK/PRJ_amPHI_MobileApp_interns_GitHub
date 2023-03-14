@@ -1,0 +1,6 @@
+
+    <div *ngFor="let sender of senders">
+        <p *ngIf="sender.name == 'Ambulance'">{{ sender.name[0] }}</p>
+        <p *ngIf="sender.name.includes('Hospital')">{{ sender.name[1] }}</p>
+
+    </div>
