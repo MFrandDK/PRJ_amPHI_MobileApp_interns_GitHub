@@ -18,7 +18,7 @@ import { PATIENTS } from './mock-patient-info';
 export class PatientInfoService {
   private patientInfoUrl = "api/patientInfo"; //Url to web api
 
-private patients: IpatientInfo[] = [];
+// private patients: IpatientInfo[] = [];
 
   constructor(private http: HttpClient) { }
 

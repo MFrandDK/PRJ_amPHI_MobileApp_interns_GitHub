@@ -1,5 +1,5 @@
 export interface IpatientInfo {
-    id: number, 
+    id: Number, 
     firstName: String, 
     middleName?: String, 
     lastName: String, 

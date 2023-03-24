@@ -18,8 +18,7 @@ export class VaardprocesService {
     };
 
     getVaardproces(id: number): Observable<IVaardproces> {
-         // For now, assume that a hero with the specified `id` always exists.
-        // Error handling will be added in the next step of the tutorial.
+        
         const vaardproces = VAARDPROCESSER.find(v =>v.id === id)!;
         return of(vaardproces);
     };
